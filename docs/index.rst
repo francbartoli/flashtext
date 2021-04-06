@@ -7,24 +7,24 @@
 FlashText's documentation!
 ==========================
 
-.. image:: https://api.travis-ci.org/francbartoli/flashtext.svg?branch=master
-    :target: https://travis-ci.org/francbartoli/flashtext
+.. image:: https://api.travis-ci.org/francbartoli/pyflashtext.svg?branch=master
+    :target: https://travis-ci.org/francbartoli/pyflashtext
     :alt: Build Status
 
-.. image:: https://readthedocs.org/projects/flashtext/badge/?version=latest
-    :target: http://flashtext.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/pyflashtext/badge/?version=latest
+    :target: http://pyflashtext.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-.. image:: https://badge.fury.io/py/flashtext.svg
-    :target: https://badge.fury.io/py/flashtext
+.. image:: https://badge.fury.io/py/pyflashtext.svg
+    :target: https://badge.fury.io/py/pyflashtext
     :alt: Version
 
-.. image:: https://coveralls.io/repos/github/francbartoli/flashtext/badge.svg?branch=master
-    :target: https://coveralls.io/github/francbartoli/flashtext?branch=master
+.. image:: https://coveralls.io/repos/github/francbartoli/pyflashtext/badge.svg?branch=master
+    :target: https://coveralls.io/github/francbartoli/pyflashtext?branch=master
     :alt: Test coverage
 
 .. image:: https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000
-    :target: https://github.com/francbartoli/flashtext/blob/master/LICENSE
+    :target: https://github.com/francbartoli/pyflashtext/blob/master/LICENSE
     :alt: license
 
 This module can be used to replace keywords in sentences or extract keywords from sentences. It is based on the `FlashText algorithm <https://arxiv.org/abs/1711.00046>`_.
@@ -181,8 +181,8 @@ Test
 ----
 ::
 
-    $ git clone https://github.com/francbartoli/flashtext
-    $ cd flashtext
+    $ git clone https://github.com/francbartoli/pyflashtext
+    $ cd pyflashtext
     $ pip install pytest
     $ python setup.py test
 
@@ -191,8 +191,8 @@ Build Docs
 ----------
 ::
 
-    $ git clone https://github.com/francbartoli/flashtext
-    $ cd flashtext/docs
+    $ git clone https://github.com/francbartoli/pyflashtext
+    $ cd pyflashtext/docs
     $ pip install sphinx
     $ make html
     $ # open _build/html/index.html in browser to view it locally
@@ -205,9 +205,9 @@ It's a custom algorithm based on `Aho-Corasick algorithm
 <https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm>`_ and `Trie Dictionary
 <https://en.wikipedia.org/wiki/Trie Dictionary>`_.
 
-.. image:: https://github.com/francbartoli/flashtext/raw/master/benchmark.png
-   :target: https://twitter.com/RadimRehurek/status/904989624589803520
-   :alt: Benchmark
+.. image:: https://github.com/francbartoli/pyflashtext/raw/master/benchmark.png
+    :target: https://twitter.com/RadimRehurek/status/904989624589803520
+    :alt: Benchmark
 
 
 Time taken by FlashText to find terms in comparison to Regex.
@@ -252,8 +252,8 @@ The article published on `Medium freeCodeCamp <https://medium.freecodecamp.org/r
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/francbartoli/flashtext/issues
-- Source Code: https://github.com/francbartoli/flashtext/
+- Issue Tracker: https://github.com/francbartoli/pyflashtext/issues
+- Source Code: https://github.com/francbartoli/pyflashtext/
 
 
 License
