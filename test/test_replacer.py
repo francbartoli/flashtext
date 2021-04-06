@@ -1,4 +1,4 @@
-from flashtext import KeywordProcessor
+from pyflashtext import KeywordProcessor
 import logging
 import unittest
 import json
@@ -24,7 +24,7 @@ class TestKeywordReplacer(unittest.TestCase):
         """
         for test_id, test_case in enumerate(self.test_cases):
             keyword_replacer = KeywordProcessor()
-            # To handle issue like https://github.com/vi3k6i5/flashtext/issues/8
+            # To handle issue like https://github.com/vi3k6i5/pyflashtext/issues/8
             # clean names are replaced with "_" in place of white space.
             for key, values in test_case['keyword_dict'].items():
                 for value in values:

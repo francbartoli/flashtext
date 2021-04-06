@@ -1,6 +1,6 @@
 KeywordProcessor Class Doc
 --------------------------
 
-.. automodule:: flashtext.keyword
+.. automodule:: pyflashtext.keyword
     :members:
     :private-members:

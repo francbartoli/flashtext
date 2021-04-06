@@ -13,6 +13,6 @@ install:
   - python setup.py install
 script:
   - python setup.py test
-  - py.test --cov-config .coveragerc --cov=flashtext test/ --doctest-modules -v --cov-report term-missing
+  - py.test --cov-config .coveragerc --cov=pyflashtext test/ --doctest-modules -v --cov-report term-missing
 after_success:
   - coveralls

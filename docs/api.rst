@@ -3,7 +3,7 @@ API Doc
 
 Import and initialize module
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> # if match has to be case sensitive
     >>> keyword_processor = KeywordProcessor(case_sensitive=True)

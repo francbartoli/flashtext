@@ -1,5 +1,5 @@
 from collections import defaultdict
-from flashtext import KeywordProcessor
+from pyflashtext import KeywordProcessor
 import logging
 import unittest
 import pytest

@@ -1,4 +1,4 @@
-from flashtext import KeywordProcessor
+from pyflashtext import KeywordProcessor
 import logging
 import unittest
 

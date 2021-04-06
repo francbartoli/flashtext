@@ -40,7 +40,7 @@ Installation
 Usage
 -----
 Extract keywords
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> # keyword_processor.add_keyword(<unclean name>, <standardised name>)
     >>> keyword_processor.add_keyword('Big Apple', 'New York')
@@ -56,7 +56,7 @@ Replace keywords
     >>> # 'I love New York and NCR region.'
 
 Case Sensitive example
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor(case_sensitive=True)
     >>> keyword_processor.add_keyword('Big Apple', 'New York')
     >>> keyword_processor.add_keyword('Bay Area')
@@ -65,7 +65,7 @@ Case Sensitive example
     >>> # ['Bay Area']
 
 Span of keywords extracted
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> keyword_processor.add_keyword('Big Apple', 'New York')
     >>> keyword_processor.add_keyword('Bay Area')
@@ -74,7 +74,7 @@ Span of keywords extracted
     >>> # [('New York', 7, 16), ('Bay Area', 21, 29)]
 
 Get Extra information with keywords extracted
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> kp = KeywordProcessor()
     >>> kp.add_keyword('Taj Mahal', ('Monument', 'Taj Mahal'))
     >>> kp.add_keyword('Delhi', ('Location', 'Delhi'))
@@ -83,7 +83,7 @@ Get Extra information with keywords extracted
     >>> # NOTE: replace_keywords feature won't work with this.
 
 No clean name for Keywords
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> keyword_processor.add_keyword('Big Apple')
     >>> keyword_processor.add_keyword('Bay Area')
@@ -92,7 +92,7 @@ No clean name for Keywords
     >>> # ['Big Apple', 'Bay Area']
 
 Add Multiple Keywords simultaneously
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> keyword_dict = {
     >>>     "java": ["java_2e", "java programing"],
@@ -106,7 +106,7 @@ Add Multiple Keywords simultaneously
     >>> # output ['product management', 'java']
 
 To Remove keywords
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> keyword_dict = {
     >>>     "java": ["java_2e", "java programing"],
@@ -123,7 +123,7 @@ To Remove keywords
     >>> # output ['product management']
 
 To check Number of terms in KeywordProcessor
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> keyword_dict = {
     >>>     "java": ["java_2e", "java programing"],
@@ -134,7 +134,7 @@ To check Number of terms in KeywordProcessor
     >>> # output 4
 
 To check if term is present in KeywordProcessor
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> keyword_processor.add_keyword('j2ee', 'Java')
     >>> 'j2ee' in keyword_processor
@@ -146,7 +146,7 @@ To check if term is present in KeywordProcessor
     >>> # output: color
 
 Get all keywords in dictionary
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> keyword_processor.add_keyword('j2ee', 'Java')
     >>> keyword_processor.add_keyword('colour', 'color')
@@ -156,7 +156,7 @@ Get all keywords in dictionary
 For detecting Word Boundary currently any character other than this `\\w` `[A-Za-z0-9_]` is considered a word boundary.
 
 To set or add characters as part of word characters
-    >>> from flashtext import KeywordProcessor
+    >>> from pyflashtext import KeywordProcessor
     >>> keyword_processor = KeywordProcessor()
     >>> keyword_processor.add_keyword('Big Apple')
     >>> print(keyword_processor.extract_keywords('I love Big Apple/Bay Area.'))
@@ -246,7 +246,7 @@ The original paper published on `FlashText algorithm <https://arxiv.org/abs/1711
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
     }
 
-The article published on `Medium freeCodeCamp <https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f>`_.
+The article published on `Medium freeCodeCamp <https://medium.freecodecamp.org/regex-was-taking-5-days-pyflashtext-does-it-in-15-minutes-55f04411025f>`_.
 
 
 Contribute
