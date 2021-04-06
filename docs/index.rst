@@ -7,8 +7,8 @@
 FlashText's documentation!
 ==========================
 
-.. image:: https://api.travis-ci.org/vi3k6i5/flashtext.svg?branch=master
-    :target: https://travis-ci.org/vi3k6i5/flashtext
+.. image:: https://api.travis-ci.org/francbartoli/flashtext.svg?branch=master
+    :target: https://travis-ci.org/francbartoli/flashtext
     :alt: Build Status
 
 .. image:: https://readthedocs.org/projects/flashtext/badge/?version=latest
@@ -19,12 +19,12 @@ FlashText's documentation!
     :target: https://badge.fury.io/py/flashtext
     :alt: Version
 
-.. image:: https://coveralls.io/repos/github/vi3k6i5/flashtext/badge.svg?branch=master
-   :target: https://coveralls.io/github/vi3k6i5/flashtext?branch=master
-   :alt: Test coverage
+.. image:: https://coveralls.io/repos/github/francbartoli/flashtext/badge.svg?branch=master
+    :target: https://coveralls.io/github/francbartoli/flashtext?branch=master
+    :alt: Test coverage
 
 .. image:: https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000
-    :target: https://github.com/vi3k6i5/flashtext/blob/master/LICENSE
+    :target: https://github.com/francbartoli/flashtext/blob/master/LICENSE
     :alt: license
 
 This module can be used to replace keywords in sentences or extract keywords from sentences. It is based on the `FlashText algorithm <https://arxiv.org/abs/1711.00046>`_.
@@ -34,7 +34,7 @@ Installation
 ------------
 ::
 
-    $ pip install flashtext
+    $ pip install pyflashtext
 
 
 Usage
@@ -181,7 +181,7 @@ Test
 ----
 ::
 
-    $ git clone https://github.com/vi3k6i5/flashtext
+    $ git clone https://github.com/francbartoli/flashtext
     $ cd flashtext
     $ pip install pytest
     $ python setup.py test
@@ -191,7 +191,7 @@ Build Docs
 ----------
 ::
 
-    $ git clone https://github.com/vi3k6i5/flashtext
+    $ git clone https://github.com/francbartoli/flashtext
     $ cd flashtext/docs
     $ pip install sphinx
     $ make html
@@ -205,7 +205,7 @@ It's a custom algorithm based on `Aho-Corasick algorithm
 <https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm>`_ and `Trie Dictionary
 <https://en.wikipedia.org/wiki/Trie Dictionary>`_.
 
-.. image:: https://github.com/vi3k6i5/flashtext/raw/master/benchmark.png
+.. image:: https://github.com/francbartoli/flashtext/raw/master/benchmark.png
    :target: https://twitter.com/RadimRehurek/status/904989624589803520
    :alt: Benchmark
 
@@ -219,7 +219,7 @@ Time taken by FlashText to replace terms in comparison to Regex.
 
 .. image:: https://thepracticaldev.s3.amazonaws.com/i/k44ghwp8o712dm58debj.png
 
-Link to code for benchmarking the `Find Feature <https://gist.github.com/vi3k6i5/604eefd92866d081cfa19f862224e4a0>`_ and `Replace Feature <https://gist.github.com/vi3k6i5/dc3335ee46ab9f650b19885e8ade6c7a>`_.
+Link to code for benchmarking the `Find Feature <https://gist.github.com/francbartoli/604eefd92866d081cfa19f862224e4a0>`_ and `Replace Feature <https://gist.github.com/francbartoli/dc3335ee46ab9f650b19885e8ade6c7a>`_.
 
 The idea for this library came from the following `StackOverflow question
 <https://stackoverflow.com/questions/44178449/regex-replace-is-taking-time-for-millions-of-documents-how-to-make-it-faster>`_.
@@ -252,8 +252,8 @@ The article published on `Medium freeCodeCamp <https://medium.freecodecamp.org/r
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/vi3k6i5/flashtext/issues
-- Source Code: https://github.com/vi3k6i5/flashtext/
+- Issue Tracker: https://github.com/francbartoli/flashtext/issues
+- Source Code: https://github.com/francbartoli/flashtext/
 
 
 License
