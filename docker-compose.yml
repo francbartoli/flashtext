@@ -1,13 +1,5 @@
 version: '2.0'
 
-
-    pytest-python3.5:
-      image: python:3.5
-      command: bash -c "pip install pytest; python setup.py test"
-      volumes:
-        - .:/app
-      working_dir: /app
-
     pytest-python3.6:
       image: python:3.6
       command: bash -c "pip install pytest; python setup.py test"
@@ -31,13 +23,6 @@ version: '2.0'
 
     pytest-python3.9:
       image: python:3.9
-      command: bash -c "pip install pytest; python setup.py test"
-      volumes:
-        - .:/app
-      working_dir: /app
-
-    pytest-python3.5-i386:
-      image: i386/python:3.5
       command: bash -c "pip install pytest; python setup.py test"
       volumes:
         - .:/app
